@@ -1,0 +1,50 @@
+* {
+    text-decoration: none !important;
+    outline: none !important;
+    list-style: none !important;
+    
+}
+.min-height-50{
+    min-height: 50vh;
+}
+a{
+    color: #000 !important; 
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+main {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+
+#Search {
+    width: 300px;
+    background-color: transparent;
+}
+
+#Regions {
+    width: 100%;
+}
+
+.Card img { height: 200px;}
+
+#DetailCard img {
+    height: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #Regions {
+        width: 250px;
+    }
+
+    #DetailCard img {
+        height: 300px;
+    }
+}
